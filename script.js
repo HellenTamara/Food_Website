@@ -1,10 +1,14 @@
-const icons = document.querySelectorAll('.section-1-icons i')
+const icons = document.querySelectorAll('.section-1-icons i');
+
+let index = 0;
 
 setInterval(() => {
+    icons.forEach(icon => icon.classList.remove('change'));
+    icons[index].classList.add('change');
 
-    const icon = document.querySelector('.section-1-icons.change')
+    index++;
 
-    icon.classList.remove('change')
-    icon.nextElementSibling.classList.add('change')
-
-},1000)
+    if (index >= icons.length) {
+        index = 0;
+    }
+}, 4000);
