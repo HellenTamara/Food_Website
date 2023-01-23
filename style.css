@@ -52,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    opacity: 1;
     transition: color 0.3s, opacity 0.2s;
 }
 
@@ -117,12 +117,12 @@
 
 .menu::before{
     content: "";
-    width: 3rem;
+    width: 0.3rem;
     height: 15rem;
     background-color: #000;
     position: absolute;
     top: -15rem;
-    left: calc(50%-0.15rem);
+    left: calc(50% - 0.15rem);
     box-shadow: 0.1rem 0 0.1rem #000;
 }
 /* End of Navbar */
