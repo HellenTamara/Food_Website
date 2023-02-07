@@ -11,3 +11,5 @@ Feel free to make any contributions or suggestions to improve the project. Just 
 
 You can find the course Link below:
 </br> https://www.udemy.com/course/10-mega-responsive-websites-with-html-css-and-javascript/
+
+I do not own any of the designs, images or code on this project.
